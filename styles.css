@@ -314,6 +314,13 @@ section > .container {
     transition: var(--transition);
 }
 
+.project-card-link {
+    display: block;
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .project-card:hover {
     transform: translateY(-10px);
     box-shadow: var(--shadow);
